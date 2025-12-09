@@ -43,9 +43,7 @@ export class UserService {
 
     const user = await this.queue.enqueue(id);
 
-    if (!this.cache.has(`user:${id}`)) {
-      this.cache.set(`user:${id}`, user);
-    }
+    this.cache.set(`user:${id}`, user);
 
     return user;
   }
