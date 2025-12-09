@@ -21,7 +21,7 @@ A production-grade Express.js API built with TypeScript featuring advanced cachi
 1. Clone the repository:
 ```bash
 git clone <repository-url>
-cd dilyar-test
+cd backend
 ```
 
 2. Install dependencies:
